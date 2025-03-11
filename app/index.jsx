@@ -15,7 +15,7 @@ export default function Index() {
 
       <View>
 
-        <Button title="go to next page" onPress={()=>{router.push("/(welcome)/screen1")}}></Button>
+        <Button title="next" onPress={()=>{router.push("/(welcome)/screen1")}}></Button>
       </View>
       
     </View>
